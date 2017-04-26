@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="229" it="0" lt="229" ct="0" ts="1490429475175" s="true" lb="登录" rc="200" rm="OK" tn="dev环境执行 1-1" dt="text" by="1864" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+<httpSample t="89" it="0" lt="56" ct="38" ts="1490429476869" s="true" lb="加载云之家" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="12122" sby="1302" ng="1" na="1">
+  <httpSample t="56" it="0" lt="56" ct="38" ts="1490429476869" s="true" lb="http://192.168.22.144/" rc="302" rm="Found" tn="线程组 1-1" dt="text" by="461" sby="431" ng="1" na="1"/>
+  <httpSample t="6" it="0" lt="6" ct="0" ts="1490429476927" s="true" lb="http://192.168.22.144/home" rc="303" rm="See Other" tn="线程组 1-1" dt="text" by="377" sby="435" ng="1" na="1"/>
+  <httpSample t="25" it="0" lt="25" ct="0" ts="1490429476933" s="true" lb="http://192.168.22.144/home/" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="11284" sby="436" ng="1" na="1"/>
+</httpSample>
+<httpSample t="33" it="0" lt="8" ct="3" ts="1490429477019" s="true" lb="加载云之家" rc="200" rm="OK" tn="线程组 1-2" dt="text" by="12122" sby="1302" ng="2" na="2">
+  <httpSample t="8" it="0" lt="8" ct="3" ts="1490429477019" s="true" lb="http://192.168.22.144/" rc="302" rm="Found" tn="线程组 1-2" dt="text" by="461" sby="431" ng="2" na="2"/>
+  <httpSample t="5" it="0" lt="5" ct="0" ts="1490429477028" s="true" lb="http://192.168.22.144/home" rc="303" rm="See Other" tn="线程组 1-2" dt="text" by="377" sby="435" ng="2" na="2"/>
+  <httpSample t="19" it="0" lt="18" ct="0" ts="1490429477033" s="true" lb="http://192.168.22.144/home/" rc="200" rm="OK" tn="线程组 1-2" dt="text" by="11284" sby="436" ng="2" na="2"/>
+</httpSample>
+<httpSample t="120" it="0" lt="120" ct="0" ts="1490429477056" s="true" lb="登录云之家" rc="200" rm="OK" tn="线程组 1-2" dt="text" by="854" sby="642" ng="2" na="2">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="25" it="0" lt="6" ct="0" ts="1490429477194" s="true" lb="主界面" rc="200" rm="OK" tn="线程组 1-2" dt="text" by="8325" sby="1028" ng="3" na="3">
+  <httpSample t="6" it="0" lt="6" ct="0" ts="1490429477194" s="true" lb="http://192.168.22.144/im/xiaoxi/" rc="302" rm="Found" tn="线程组 1-2" dt="" by="303" sby="494" ng="3" na="3"/>
+  <httpSample t="18" it="0" lt="18" ct="0" ts="1490429477201" s="true" lb="http://192.168.22.144/home/?m=open&amp;a=login&amp;redirectUrl=%2Fim%2Fxiaoxi%2F" rc="200" rm="OK" tn="线程组 1-2" dt="text" by="8022" sby="534" ng="3" na="3"/>
+</httpSample>
+<httpSample t="36" it="0" lt="9" ct="2" ts="1490429477219" s="true" lb="加载云之家" rc="200" rm="OK" tn="线程组 1-3" dt="text" by="12124" sby="1302" ng="2" na="2">
+  <httpSample t="9" it="0" lt="9" ct="2" ts="1490429477219" s="true" lb="http://192.168.22.144/" rc="302" rm="Found" tn="线程组 1-3" dt="text" by="463" sby="431" ng="2" na="2"/>
+  <httpSample t="5" it="0" lt="5" ct="0" ts="1490429477229" s="true" lb="http://192.168.22.144/home" rc="303" rm="See Other" tn="线程组 1-3" dt="text" by="377" sby="435" ng="2" na="2"/>
+  <httpSample t="21" it="0" lt="20" ct="0" ts="1490429477234" s="true" lb="http://192.168.22.144/home/" rc="200" rm="OK" tn="线程组 1-3" dt="text" by="11284" sby="436" ng="2" na="2"/>
+</httpSample>
+<httpSample t="163" it="0" lt="163" ct="0" ts="1490429477259" s="true" lb="登录云之家" rc="200" rm="OK" tn="线程组 1-3" dt="text" by="916" sby="648" ng="3" na="3">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="438" it="0" lt="437" ct="0" ts="1490429476986" s="true" lb="登录云之家" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="885" sby="642" ng="3" na="3">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="27" it="0" lt="5" ct="0" ts="1490429477425" s="true" lb="主界面" rc="200" rm="OK" tn="线程组 1-3" dt="text" by="8325" sby="1028" ng="3" na="3">
+  <httpSample t="5" it="0" lt="5" ct="0" ts="1490429477425" s="true" lb="http://192.168.22.144/im/xiaoxi/" rc="302" rm="Found" tn="线程组 1-3" dt="" by="303" sby="494" ng="3" na="3"/>
+  <httpSample t="21" it="0" lt="21" ct="0" ts="1490429477431" s="true" lb="http://192.168.22.144/home/?m=open&amp;a=login&amp;redirectUrl=%2Fim%2Fxiaoxi%2F" rc="200" rm="OK" tn="线程组 1-3" dt="text" by="8022" sby="534" ng="3" na="3"/>
+</httpSample>
+<httpSample t="30" it="0" lt="5" ct="0" ts="1490429477426" s="true" lb="主界面" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="8325" sby="1028" ng="2" na="2">
+  <httpSample t="5" it="0" lt="5" ct="0" ts="1490429477426" s="true" lb="http://192.168.22.144/im/xiaoxi/" rc="302" rm="Found" tn="线程组 1-1" dt="" by="303" sby="494" ng="2" na="2"/>
+  <httpSample t="24" it="0" lt="23" ct="0" ts="1490429477432" s="true" lb="http://192.168.22.144/home/?m=open&amp;a=login&amp;redirectUrl=%2Fim%2Fxiaoxi%2F" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="8022" sby="534" ng="2" na="2"/>
+</httpSample>
+<httpSample t="45" it="0" lt="14" ct="8" ts="1490429477420" s="true" lb="加载云之家" rc="200" rm="OK" tn="线程组 1-4" dt="text" by="12123" sby="1302" ng="1" na="1">
+  <httpSample t="14" it="0" lt="14" ct="8" ts="1490429477420" s="true" lb="http://192.168.22.144/" rc="302" rm="Found" tn="线程组 1-4" dt="text" by="462" sby="431" ng="1" na="1"/>
+  <httpSample t="6" it="0" lt="6" ct="0" ts="1490429477434" s="true" lb="http://192.168.22.144/home" rc="303" rm="See Other" tn="线程组 1-4" dt="text" by="377" sby="435" ng="1" na="1"/>
+  <httpSample t="25" it="0" lt="24" ct="0" ts="1490429477440" s="true" lb="http://192.168.22.144/home/" rc="200" rm="OK" tn="线程组 1-4" dt="text" by="11284" sby="436" ng="1" na="1"/>
+</httpSample>
+<httpSample t="36" it="0" lt="8" ct="3" ts="1490429477620" s="true" lb="加载云之家" rc="200" rm="OK" tn="线程组 1-5" dt="text" by="12122" sby="1302" ng="2" na="2">
+  <httpSample t="8" it="0" lt="8" ct="3" ts="1490429477620" s="true" lb="http://192.168.22.144/" rc="302" rm="Found" tn="线程组 1-5" dt="text" by="461" sby="431" ng="2" na="2"/>
+  <httpSample t="5" it="0" lt="5" ct="0" ts="1490429477629" s="true" lb="http://192.168.22.144/home" rc="303" rm="See Other" tn="线程组 1-5" dt="text" by="377" sby="435" ng="2" na="2"/>
+  <httpSample t="21" it="0" lt="20" ct="0" ts="1490429477635" s="true" lb="http://192.168.22.144/home/" rc="200" rm="OK" tn="线程组 1-5" dt="text" by="11284" sby="436" ng="2" na="2"/>
+</httpSample>
+<httpSample t="258" it="0" lt="257" ct="0" ts="1490429477468" s="true" lb="登录云之家" rc="200" rm="OK" tn="线程组 1-4" dt="text" by="903" sby="644" ng="2" na="2">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="31" it="0" lt="5" ct="0" ts="1490429477728" s="true" lb="主界面" rc="200" rm="OK" tn="线程组 1-4" dt="text" by="8325" sby="1028" ng="2" na="2">
+  <httpSample t="5" it="0" lt="5" ct="0" ts="1490429477728" s="true" lb="http://192.168.22.144/im/xiaoxi/" rc="302" rm="Found" tn="线程组 1-4" dt="" by="303" sby="494" ng="2" na="2"/>
+  <httpSample t="25" it="0" lt="24" ct="0" ts="1490429477734" s="true" lb="http://192.168.22.144/home/?m=open&amp;a=login&amp;redirectUrl=%2Fim%2Fxiaoxi%2F" rc="200" rm="OK" tn="线程组 1-4" dt="text" by="8022" sby="534" ng="2" na="2"/>
+</httpSample>
+<httpSample t="206" it="0" lt="206" ct="0" ts="1490429477662" s="true" lb="登录云之家" rc="200" rm="OK" tn="线程组 1-5" dt="text" by="923" sby="645" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="29" it="0" lt="5" ct="0" ts="1490429477874" s="true" lb="主界面" rc="200" rm="OK" tn="线程组 1-5" dt="text" by="8325" sby="1028" ng="1" na="1">
+  <httpSample t="5" it="0" lt="5" ct="0" ts="1490429477874" s="true" lb="http://192.168.22.144/im/xiaoxi/" rc="302" rm="Found" tn="线程组 1-5" dt="" by="303" sby="494" ng="1" na="1"/>
+  <httpSample t="24" it="0" lt="23" ct="0" ts="1490429477879" s="true" lb="http://192.168.22.144/home/?m=open&amp;a=login&amp;redirectUrl=%2Fim%2Fxiaoxi%2F" rc="200" rm="OK" tn="线程组 1-5" dt="text" by="8022" sby="534" ng="1" na="1"/>
+</httpSample>
+
+<httpSample t="240" it="0" lt="240" ct="0" ts="1490429519113" s="true" lb="登录" rc="200" rm="OK" tn="dev环境执行 1-1" dt="text" by="1865" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="320" it="0" lt="0" ct="0" ts="1490429519404" s="true" lb="acquire.json" rc="200" rm="OK" tn="dev环境执行 1-1" dt="text" by="342" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>

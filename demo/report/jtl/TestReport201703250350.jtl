@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="172" it="0" lt="171" ct="0" ts="1490428244031" s="true" lb="登录" rc="200" rm="OK" tn="dev环境执行 1-1" dt="text" by="1862" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="346" it="0" lt="0" ct="0" ts="1490428244245" s="true" lb="acquire.json" rc="200" rm="OK" tn="dev环境执行 1-1" dt="text" by="342" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="50" it="0" lt="0" ct="0" ts="1490428244592" s="true" lb="appToken.json" rc="200" rm="OK" tn="dev环境执行 1-1" dt="text" by="342" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="47" it="0" lt="0" ct="0" ts="1490428244655" s="true" lb="currentcontext.json" rc="200" rm="OK" tn="dev环境执行 1-1" dt="text" by="342" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="69" it="0" lt="0" ct="0" ts="1490428244703" s="true" lb="userIdentify.json" rc="200" rm="OK" tn="dev环境执行 1-1" dt="text" by="342" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="50" it="0" lt="0" ct="0" ts="1490428244775" s="true" lb="acquireticket.json" rc="200" rm="OK" tn="dev环境执行 1-1" dt="text" by="340" sby="0" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>

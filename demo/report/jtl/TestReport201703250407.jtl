@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="170" it="0" lt="170" ct="0" ts="1490429236822" s="true" lb="login_yzj" rc="200" rm="OK" tn="jmeter_test 1-1" dt="text" by="1130" sby="0" ng="1" na="1"/>
+<httpSample t="166" it="0" lt="119" ct="0" ts="1490429237019" s="true" lb="加载App页面" rc="200" rm="OK" tn="jmeter_test 1-1" dt="text" by="28345" sby="0" ng="1" na="1"/>
+<httpSample t="205" it="0" lt="165" ct="0" ts="1490429237193" s="true" lb="请求加载crm产品并且返回ticket" rc="200" rm="OK" tn="jmeter_test 1-1" dt="text" by="24074" sby="0" ng="1" na="1"/>
+<httpSample t="235" it="0" lt="235" ct="0" ts="1490429237415" s="true" lb="ticket认证" rc="302" rm="Found" tn="jmeter_test 1-1" dt="" by="637" sby="0" ng="1" na="1"/>
+<httpSample t="75" it="0" lt="75" ct="0" ts="1490429237654" s="true" lb="获取用户及权限" rc="200" rm="OK" tn="jmeter_test 1-1" dt="text" by="1000" sby="0" ng="1" na="1"/>
+
+</testResults>
