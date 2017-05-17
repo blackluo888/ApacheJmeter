@@ -93,6 +93,9 @@
 	<classpathentry kind="lib" path="lib/servlet-api-2.5-6.1.11.jar"/>
 	<classpathentry kind="lib" path="lib/signpost-commonshttp4-1.2.1.2.jar"/>
 	<classpathentry kind="lib" path="lib/signpost-core-1.2.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/oauth-client4j-0.1.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.2.4.jar"/>
 	<classpathentry kind="src" output="build/test" path="test/resources"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>
